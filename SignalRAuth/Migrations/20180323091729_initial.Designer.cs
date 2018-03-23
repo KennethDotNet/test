@@ -11,8 +11,8 @@ using System;
 namespace SignalRAuth.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20180322203244_initial2")]
-    partial class initial2
+    [Migration("20180323091729_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
